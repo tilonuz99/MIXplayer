@@ -9,7 +9,7 @@ from time import sleep, strftime, localtime
 adminTelegramID =
 botToken =  # токен бота Телеграм
 bot = telebot.TeleBot(botToken)
-#   telebot.apihelper.proxy = {'https': 'type://login:password@address:port'} - прокси, если необходим
+#   telebot.apihelper.proxy = {'type://login:password@address:port'} - прокси, если необходим
 
 if not path.exists('./downloads/covers/'):
     makedirs('./downloads/covers/')
