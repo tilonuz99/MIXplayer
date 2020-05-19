@@ -6,8 +6,8 @@ from time import sleep, strftime, localtime
 
 
 # ID пользователя, которому будут отправляться уведомления о потери связи с прокси к ЯМузыке
-adminTelegramID =
-botToken =  # токен бота Телеграм
+adminTelegramID = 818292197
+botToken = "1168250719:AAEBfSvMWj49OObhmi5hIYMcm8ZlzTgE5X8"
 bot = telebot.TeleBot(botToken)
 #   telebot.apihelper.proxy = {'type://login:password@address:port'} - прокси, если необходим
 
